@@ -19,8 +19,11 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-          <Navbar />
-          <p className="btn btn-primary">Teste bootstrap</p>
+        <div>
+           <h1>Página Inicial</h1>
+          <Navbar />     
+        </div>
+          
       </main>
     </>
   );
